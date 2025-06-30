@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yumewe_main</title>
+    <link rel="stylesheet" href="main.css  " />
+  </head>
+  <body>
+    <div id="vc_container">
+      <div id="vc1">
+        <video id="liveVideo1" autoplay playsinline></video>
+      </div>
+      <div id="vc2">
+        <video id="liveVideo2" autoplay playsinline></video>
+      </div>
+    </div>
+    <input type="file" id="videoUploader" accept="video/*" />
+    <div id="movie">
+      <video id="moviePlayer" controls></video>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
